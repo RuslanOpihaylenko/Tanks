@@ -1,0 +1,11 @@
+﻿  GameForm.cpp
+C:\Users\rysya\Desktop\Project (39,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::OnPaint" не соответствует методу базового класса-ссылки
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
+  C:\Users\rysya\Desktop\Project (39,16):
+  "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
+  
+C:\Users\rysya\Desktop\Project (75,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
+  
+  GameForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project #2 Tanks.vcxproj -> C:\Users\rysya\Desktop\Project #2 Tanks\x64\Debug\Project #2 Tanks.exe
