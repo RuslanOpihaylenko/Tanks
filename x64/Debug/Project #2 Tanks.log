@@ -1,11 +1,95 @@
-﻿  GameForm.cpp
-C:\Users\rysya\Desktop\Project (39,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::OnPaint" не соответствует методу базового класса-ссылки
-  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
-  C:\Users\rysya\Desktop\Project (39,16):
+﻿  Creature.cpp
+  Enemy.cpp
+  EnemyAmmo.cpp
+C:\Users\rysya\Desktop\Project (13,3): error C3861: EnemyAmmoRoad: идентификатор не найден
+C:\Users\rysya\Desktop\Project (18,3): error C3861: EnemyAmmoRoad: идентификатор не найден
+C:\Users\rysya\Desktop\Project (24,4): error C3861: EnemyAmmoRoad: идентификатор не найден
+C:\Users\rysya\Desktop\Project (29,4): error C3861: EnemyAmmoRoad: идентификатор не найден
+C:\Users\rysya\Desktop\Project (70,10): error C2086: System::Windows::Forms::Timer ^Project2Tanks::GameForm::timer: переопределение
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/EnemyAmmo.cpp")
+  
+C:\Users\rysya\Desktop\Project (46,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::OnPaint" не соответствует методу базового класса-ссылки
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/EnemyAmmo.cpp")
+  C:\Users\rysya\Desktop\Project (46,16):
   "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
   
-C:\Users\rysya\Desktop\Project (75,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\rysya\Desktop\Project (89,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/EnemyAmmo.cpp")
+  
+C:\Users\rysya\Desktop\Project (127,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/EnemyAmmo.cpp")
+  
+C:\Users\rysya\Desktop\Project (21,26): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (21,12): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (21,56): error C2065: Playerposition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (21,42): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (23,3): error C3861: PlaceWall: идентификатор не найден
+C:\Users\rysya\Desktop\Project (29,26): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (29,12): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (29,56): error C2065: Playerposition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (29,42): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (31,3): error C3861: PlaceWall: идентификатор не найден
+C:\Users\rysya\Desktop\Project (37,26): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (37,12): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (37,56): error C2065: Playerposition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (37,42): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (39,3): error C3861: PlaceWall: идентификатор не найден
+C:\Users\rysya\Desktop\Project (45,26): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (45,12): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (45,56): error C2065: Playerposition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (45,42): error C3867: "EnemyAmmo::EAPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (47,3): error C3861: PlaceWall: идентификатор не найден
+  GameForm.cpp
+C:\Users\rysya\Desktop\Project (70,10): error C2086: System::Windows::Forms::Timer ^Project2Tanks::GameForm::timer: переопределение
   (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
   
-  GameForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  Project #2 Tanks.vcxproj -> C:\Users\rysya\Desktop\Project #2 Tanks\x64\Debug\Project #2 Tanks.exe
+C:\Users\rysya\Desktop\Project (46,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::OnPaint" не соответствует методу базового класса-ссылки
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
+  C:\Users\rysya\Desktop\Project (46,16):
+  "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
+  
+C:\Users\rysya\Desktop\Project (89,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
+  
+C:\Users\rysya\Desktop\Project (127,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
+  
+  Player.cpp
+C:\Users\rysya\Desktop\Project (29,3): error C3861: PlayerAmmoRoad: идентификатор не найден
+  PlayerAmmo.cpp
+C:\Users\rysya\Desktop\Project (70,10): error C2086: System::Windows::Forms::Timer ^Project2Tanks::GameForm::timer: переопределение
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/PlayerAmmo.cpp")
+  
+C:\Users\rysya\Desktop\Project (46,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::OnPaint" не соответствует методу базового класса-ссылки
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/PlayerAmmo.cpp")
+  C:\Users\rysya\Desktop\Project (46,16):
+  "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
+  
+C:\Users\rysya\Desktop\Project (89,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/PlayerAmmo.cpp")
+  
+C:\Users\rysya\Desktop\Project (127,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/PlayerAmmo.cpp")
+  
+C:\Users\rysya\Desktop\Project (21,26): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (21,12): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (21,58): error C2065: placeEnemy: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (21,42): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (23,3): error C3861: PlaceWall: идентификатор не найден
+C:\Users\rysya\Desktop\Project (29,28): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (29,12): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (29,60): error C2065: placeEnemy: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (29,44): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (31,3): error C3861: PlaceWall: идентификатор не найден
+C:\Users\rysya\Desktop\Project (37,28): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (37,12): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (37,60): error C2065: placeEnemy: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (37,44): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (39,3): error C3861: PlaceWall: идентификатор не найден
+C:\Users\rysya\Desktop\Project (45,28): error C2065: WallPosition: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (45,12): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (45,60): error C2065: placeEnemy: необъявленный идентификатор
+C:\Users\rysya\Desktop\Project (45,44): error C3867: "PlayerAmmo::AmmoPosition": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+C:\Users\rysya\Desktop\Project (47,3): error C3861: PlaceWall: идентификатор не найден
+  Wall.cpp
+  Создание кода...
