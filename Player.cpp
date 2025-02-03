@@ -1,5 +1,4 @@
 #include "Player.h"
-#include"PlayerAmmo.h"
 
 Player::Player() {
 	this->brush = gcnew SolidBrush(Color::Orange);
@@ -24,9 +23,6 @@ void Player::playerAction(KeyEventArgs^ e) {
 	case Keys::D:
 		this->position.X += this->size;
 		this->look = 2;
-		break;
-	case Keys::E:
-		PlayerAmmoRoad();
 		break;
 	default:
 		break;

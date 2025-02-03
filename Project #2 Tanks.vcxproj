@@ -26,23 +26,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Ammo.cpp" />
     <ClCompile Include="Creature.cpp" />
     <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="EnemyAmmo.cpp" />
     <ClCompile Include="GameForm.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="PlayerAmmo.cpp" />
     <ClCompile Include="Wall.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ammo.h" />
     <ClInclude Include="Creature.h" />
     <ClInclude Include="Enemy.h" />
-    <ClInclude Include="EnemyAmmo.h" />
     <ClInclude Include="GameForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayerAmmo.h" />
     <ClInclude Include="Wall.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
