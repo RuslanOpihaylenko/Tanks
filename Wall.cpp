@@ -1,6 +1,6 @@
 #include "Wall.h"
 
-Wall::Wall()
+Wall::Wall() 
 {
-	this->brush = gcnew SolidBrush(Color::Gray);
+	this->brush = gcnew SolidBrush(Color::Blue);
 }
