@@ -1,23 +1,11 @@
 ﻿  GameForm.cpp
-C:\Users\rysya\Desktop\Project (40,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::onPaint" не соответствует методу базового класса-ссылки
+C:\Users\rysya\Desktop\Project (39,16): warning C4490: override: неправильное использование спецификатора переопределения; "Project2Tanks::GameForm::onPaint" не соответствует методу базового класса-ссылки
   (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
-  C:\Users\rysya\Desktop\Project (40,16):
+  C:\Users\rysya\Desktop\Project (39,16):
   "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
   
-C:\Users\rysya\Desktop\Project (164,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\rysya\Desktop\Project (158,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
   
-C:\Users\rysya\Desktop\Project (207,14): warning C4312: приведение типов: преобразование из "int" в "char *" большего размера
-  (компиляция исходного файла "../../Project%20#2%20Tanks/Project%20#2%20Tanks/GameForm.cpp")
-  
-C:\Users\rysya\Desktop\Project (7,10): error C2976: std::array: слишком мало аргументов шаблон
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(147,7):
-   см. объявление "std::array"
-  
-C:\Users\rysya\Desktop\Project (7,26): error C3699: ^: это косвенное обращение невозможно использовать для типа "std::array"
-  C:\Users\rysya\Desktop\Project (7,26):
-  для продолжения работы компилятор заменил "^" на "*"
-  
-  Player.cpp
-C:\Users\rysya\Desktop\Project (202,3): error C2065: counter: необъявленный идентификатор
-  Создание кода...
+  Creature.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project #2 Tanks.vcxproj -> C:\Users\rysya\Desktop\Project #2 Tanks\x64\Debug\Project #2 Tanks.exe

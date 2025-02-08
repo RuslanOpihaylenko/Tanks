@@ -199,7 +199,6 @@ void Player::playerAction(KeyEventArgs^ e) {
 		break;
 	case Keys::D:
 		this->look = 2;
-		counter += 1;
 		if (this->isNextCellEmpty(this->look)) {
 			this->position.X += this->size;
 		}
